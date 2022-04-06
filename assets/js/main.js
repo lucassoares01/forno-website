@@ -1,6 +1,6 @@
 const navButton = document.querySelector('.nav-button i')
 const sideNav = document.querySelector('ul')
-const links = document.querySelector('ul li a')
+const links = document.querySelectorAll('ul li a')
 
 navButton.addEventListener('click', ()=>{
     sideNav.classList.toggle('active')
@@ -16,3 +16,13 @@ navButton.addEventListener('click', ()=>{
         navButton.style.color = '#241f42'
     }
 })
+
+links.forEach(( link ) =>{
+    link.addEventListener('click', ()=>{
+        sideNav.classList.remove('active')
+        navButton.classList.remove('fa-times')
+        navButton.classList.add('fa-bars')
+        navButton.style.color = '#241f42'
+    })
+})
+
