@@ -1,9 +1,7 @@
 # Forno Website
 
-# Demo 📸
-
 <div align="center">
-  <h1 align="left">💻Desktop Version</h1>
+  <h1>💻Desktop Version</h1>
   <img src="./github/forndesktop.gif"/>
   
   <h1>📱Mobile Version</h1>
