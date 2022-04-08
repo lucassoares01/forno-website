@@ -12,7 +12,7 @@
                                                                                                                                                                                                                             
 
 ## 💻 About The Project
-Website made for a brazilian restaurant called Forno.
+Website made for a restaurant called Forno.
 
 <br>
 
